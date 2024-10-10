@@ -3,8 +3,8 @@ import imutils
 import os
 
 # Load the Haar Cascade Classifiers
-face_cascade_path = os.path.join("Enter Python file path", "haarcascade_frontalface_default.xml")
-eye_cascade_path = os.path.join("Enter Python file path", "haarcascade_eye.xml")
+face_cascade_path = os.path.join("Enter the Xml file path", "haarcascade_frontalface_default.xml")
+eye_cascade_path = os.path.join("Enter the Xml file path", "haarcascade_eye.xml")
 
 face_cascade = cv.CascadeClassifier(face_cascade_path)
 eye_cascade = cv.CascadeClassifier(eye_cascade_path)
